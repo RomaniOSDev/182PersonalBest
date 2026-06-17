@@ -3,33 +3,133 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 60;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		301FE04E2FD8BC310019443E /* AppExportData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FE00A2FD8BC310019443E /* AppExportData.swift */; };
+		301FE04F2FD8BC310019443E /* AppLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FE00B2FD8BC310019443E /* AppLinks.swift */; };
+		301FE0502FD8BC310019443E /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FE00C2FD8BC310019443E /* Exercise.swift */; };
+		301FE0512FD8BC310019443E /* ExerciseCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FE00D2FD8BC310019443E /* ExerciseCategory.swift */; };
+		301FE0522FD8BC310019443E /* ExerciseSortOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FE00E2FD8BC310019443E /* ExerciseSortOption.swift */; };
+		301FE0532FD8BC310019443E /* HistoryPeriodFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FE00F2FD8BC310019443E /* HistoryPeriodFilter.swift */; };
+		301FE0542FD8BC310019443E /* OnboardingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FE0102FD8BC310019443E /* OnboardingPage.swift */; };
+		301FE0552FD8BC310019443E /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FE0112FD8BC310019443E /* Record.swift */; };
+		301FE0562FD8BC310019443E /* RecordComparisonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FE0122FD8BC310019443E /* RecordComparisonType.swift */; };
+		301FE0572FD8BC310019443E /* ReminderSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FE0132FD8BC310019443E /* ReminderSettings.swift */; };
+		301FE0582FD8BC310019443E /* WorkoutSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FE0142FD8BC310019443E /* WorkoutSession.swift */; };
+		301FE0592FD8BC310019443E /* ExerciseStorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FE0162FD8BC310019443E /* ExerciseStorageService.swift */; };
+		301FE05A2FD8BC310019443E /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FE0172FD8BC310019443E /* NotificationService.swift */; };
+		301FE05B2FD8BC310019443E /* OnboardingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FE0182FD8BC310019443E /* OnboardingService.swift */; };
+		301FE05C2FD8BC310019443E /* StatisticsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FE0192FD8BC310019443E /* StatisticsService.swift */; };
+		301FE05D2FD8BC310019443E /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FE01B2FD8BC310019443E /* AppTheme.swift */; };
+		301FE05E2FD8BC310019443E /* ExerciseFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FE01D2FD8BC310019443E /* ExerciseFormViewModel.swift */; };
+		301FE05F2FD8BC310019443E /* ExerciseListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FE01E2FD8BC310019443E /* ExerciseListViewModel.swift */; };
+		301FE0602FD8BC310019443E /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FE01F2FD8BC310019443E /* HomeViewModel.swift */; };
+		301FE0612FD8BC310019443E /* InsightsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FE0202FD8BC310019443E /* InsightsViewModel.swift */; };
+		301FE0622FD8BC310019443E /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FE0212FD8BC310019443E /* OnboardingViewModel.swift */; };
+		301FE0632FD8BC310019443E /* RecordFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FE0222FD8BC310019443E /* RecordFormViewModel.swift */; };
+		301FE0642FD8BC310019443E /* RecordHistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FE0232FD8BC310019443E /* RecordHistoryViewModel.swift */; };
+		301FE0652FD8BC310019443E /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FE0242FD8BC310019443E /* SettingsViewModel.swift */; };
+		301FE0662FD8BC310019443E /* WorkoutViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FE0252FD8BC310019443E /* WorkoutViewModel.swift */; };
+		301FE0672FD8BC310019443E /* HomeWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FE0272FD8BC310019443E /* HomeWidgets.swift */; };
+		301FE0682FD8BC310019443E /* CategoryFilterBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FE0292FD8BC310019443E /* CategoryFilterBar.swift */; };
+		301FE0692FD8BC310019443E /* ExerciseCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FE02A2FD8BC310019443E /* ExerciseCellView.swift */; };
+		301FE06A2FD8BC310019443E /* FormComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FE02B2FD8BC310019443E /* FormComponents.swift */; };
+		301FE06B2FD8BC310019443E /* GoalProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FE02C2FD8BC310019443E /* GoalProgressView.swift */; };
+		301FE06C2FD8BC310019443E /* ImprovementCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FE02D2FD8BC310019443E /* ImprovementCellView.swift */; };
+		301FE06D2FD8BC310019443E /* OnboardingPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FE02E2FD8BC310019443E /* OnboardingPageView.swift */; };
+		301FE06E2FD8BC310019443E /* PeriodFilterPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FE02F2FD8BC310019443E /* PeriodFilterPicker.swift */; };
+		301FE06F2FD8BC310019443E /* ProgressChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FE0302FD8BC310019443E /* ProgressChartView.swift */; };
+		301FE0702FD8BC310019443E /* RecordCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FE0312FD8BC310019443E /* RecordCellView.swift */; };
+		301FE0712FD8BC310019443E /* RecordHeroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FE0322FD8BC310019443E /* RecordHeroView.swift */; };
+		301FE0722FD8BC310019443E /* SettingsActionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FE0332FD8BC310019443E /* SettingsActionCell.swift */; };
+		301FE0732FD8BC310019443E /* StatCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FE0342FD8BC310019443E /* StatCardView.swift */; };
+		301FE0742FD8BC310019443E /* WorkoutSessionCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FE0352FD8BC310019443E /* WorkoutSessionCellView.swift */; };
+		301FE0752FD8BC310019443E /* ExerciseFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FE0372FD8BC310019443E /* ExerciseFormView.swift */; };
+		301FE0762FD8BC310019443E /* ExerciseListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FE0382FD8BC310019443E /* ExerciseListView.swift */; };
+		301FE0772FD8BC310019443E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FE0392FD8BC310019443E /* HomeView.swift */; };
+		301FE0782FD8BC310019443E /* InsightsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FE03A2FD8BC310019443E /* InsightsView.swift */; };
+		301FE0792FD8BC310019443E /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FE03B2FD8BC310019443E /* MainTabView.swift */; };
+		301FE07A2FD8BC310019443E /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FE03C2FD8BC310019443E /* OnboardingView.swift */; };
+		301FE07B2FD8BC310019443E /* RecordFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FE03D2FD8BC310019443E /* RecordFormView.swift */; };
+		301FE07C2FD8BC310019443E /* RecordHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FE03E2FD8BC310019443E /* RecordHistoryView.swift */; };
+		301FE07D2FD8BC310019443E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FE03F2FD8BC310019443E /* SettingsView.swift */; };
+		301FE07E2FD8BC310019443E /* WorkoutFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FE0402FD8BC310019443E /* WorkoutFormView.swift */; };
+		301FE07F2FD8BC310019443E /* WorkoutListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FE0412FD8BC310019443E /* WorkoutListView.swift */; };
+		301FE0802FD8BC310019443E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FE0432FD8BC310019443E /* AppDelegate.swift */; };
+		301FE0812FD8BC310019443E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FE0452FD8BC310019443E /* ContentView.swift */; };
+		301FE0822FD8BC310019443E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FE04B2FD8BC310019443E /* SceneDelegate.swift */; };
+		301FE0832FD8BC310019443E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301FE04C2FD8BC310019443E /* ViewController.swift */; };
+		301FE0842FD8BC310019443E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 301FE0442FD8BC310019443E /* Assets.xcassets */; };
+		301FE0862FD8BC310019443E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 301FE0482FD8BC310019443E /* LaunchScreen.storyboard */; };
+		301FE0872FD8BC310019443E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 301FE04A2FD8BC310019443E /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		11E7F2A40850F34F804DE081 /* Pods-182PersonalBest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-182PersonalBest.debug.xcconfig"; path = "Target Support Files/Pods-182PersonalBest/Pods-182PersonalBest.debug.xcconfig"; sourceTree = "<group>"; };
 		301FDF562FD8B3D60019443E /* 182PersonalBest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 182PersonalBest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		301FE00A2FD8BC310019443E /* AppExportData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppExportData.swift; sourceTree = "<group>"; };
+		301FE00B2FD8BC310019443E /* AppLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLinks.swift; sourceTree = "<group>"; };
+		301FE00C2FD8BC310019443E /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		301FE00D2FD8BC310019443E /* ExerciseCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseCategory.swift; sourceTree = "<group>"; };
+		301FE00E2FD8BC310019443E /* ExerciseSortOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseSortOption.swift; sourceTree = "<group>"; };
+		301FE00F2FD8BC310019443E /* HistoryPeriodFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryPeriodFilter.swift; sourceTree = "<group>"; };
+		301FE0102FD8BC310019443E /* OnboardingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPage.swift; sourceTree = "<group>"; };
+		301FE0112FD8BC310019443E /* Record.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
+		301FE0122FD8BC310019443E /* RecordComparisonType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordComparisonType.swift; sourceTree = "<group>"; };
+		301FE0132FD8BC310019443E /* ReminderSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderSettings.swift; sourceTree = "<group>"; };
+		301FE0142FD8BC310019443E /* WorkoutSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutSession.swift; sourceTree = "<group>"; };
+		301FE0162FD8BC310019443E /* ExerciseStorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseStorageService.swift; sourceTree = "<group>"; };
+		301FE0172FD8BC310019443E /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		301FE0182FD8BC310019443E /* OnboardingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingService.swift; sourceTree = "<group>"; };
+		301FE0192FD8BC310019443E /* StatisticsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsService.swift; sourceTree = "<group>"; };
+		301FE01B2FD8BC310019443E /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		301FE01D2FD8BC310019443E /* ExerciseFormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseFormViewModel.swift; sourceTree = "<group>"; };
+		301FE01E2FD8BC310019443E /* ExerciseListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseListViewModel.swift; sourceTree = "<group>"; };
+		301FE01F2FD8BC310019443E /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		301FE0202FD8BC310019443E /* InsightsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightsViewModel.swift; sourceTree = "<group>"; };
+		301FE0212FD8BC310019443E /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
+		301FE0222FD8BC310019443E /* RecordFormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordFormViewModel.swift; sourceTree = "<group>"; };
+		301FE0232FD8BC310019443E /* RecordHistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordHistoryViewModel.swift; sourceTree = "<group>"; };
+		301FE0242FD8BC310019443E /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		301FE0252FD8BC310019443E /* WorkoutViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutViewModel.swift; sourceTree = "<group>"; };
+		301FE0272FD8BC310019443E /* HomeWidgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWidgets.swift; sourceTree = "<group>"; };
+		301FE0292FD8BC310019443E /* CategoryFilterBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryFilterBar.swift; sourceTree = "<group>"; };
+		301FE02A2FD8BC310019443E /* ExerciseCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseCellView.swift; sourceTree = "<group>"; };
+		301FE02B2FD8BC310019443E /* FormComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormComponents.swift; sourceTree = "<group>"; };
+		301FE02C2FD8BC310019443E /* GoalProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalProgressView.swift; sourceTree = "<group>"; };
+		301FE02D2FD8BC310019443E /* ImprovementCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImprovementCellView.swift; sourceTree = "<group>"; };
+		301FE02E2FD8BC310019443E /* OnboardingPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPageView.swift; sourceTree = "<group>"; };
+		301FE02F2FD8BC310019443E /* PeriodFilterPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodFilterPicker.swift; sourceTree = "<group>"; };
+		301FE0302FD8BC310019443E /* ProgressChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressChartView.swift; sourceTree = "<group>"; };
+		301FE0312FD8BC310019443E /* RecordCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordCellView.swift; sourceTree = "<group>"; };
+		301FE0322FD8BC310019443E /* RecordHeroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordHeroView.swift; sourceTree = "<group>"; };
+		301FE0332FD8BC310019443E /* SettingsActionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsActionCell.swift; sourceTree = "<group>"; };
+		301FE0342FD8BC310019443E /* StatCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatCardView.swift; sourceTree = "<group>"; };
+		301FE0352FD8BC310019443E /* WorkoutSessionCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutSessionCellView.swift; sourceTree = "<group>"; };
+		301FE0372FD8BC310019443E /* ExerciseFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseFormView.swift; sourceTree = "<group>"; };
+		301FE0382FD8BC310019443E /* ExerciseListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseListView.swift; sourceTree = "<group>"; };
+		301FE0392FD8BC310019443E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		301FE03A2FD8BC310019443E /* InsightsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightsView.swift; sourceTree = "<group>"; };
+		301FE03B2FD8BC310019443E /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		301FE03C2FD8BC310019443E /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		301FE03D2FD8BC310019443E /* RecordFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordFormView.swift; sourceTree = "<group>"; };
+		301FE03E2FD8BC310019443E /* RecordHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordHistoryView.swift; sourceTree = "<group>"; };
+		301FE03F2FD8BC310019443E /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		301FE0402FD8BC310019443E /* WorkoutFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutFormView.swift; sourceTree = "<group>"; };
+		301FE0412FD8BC310019443E /* WorkoutListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutListView.swift; sourceTree = "<group>"; };
+		301FE0432FD8BC310019443E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		301FE0442FD8BC310019443E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		301FE0452FD8BC310019443E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		301FE0462FD8BC310019443E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		301FE0472FD8BC310019443E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		301FE0492FD8BC310019443E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		301FE04B2FD8BC310019443E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		301FE04C2FD8BC310019443E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6215DC1FD66BC0563EA720D5 /* Pods-182PersonalBest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-182PersonalBest.release.xcconfig"; path = "Target Support Files/Pods-182PersonalBest/Pods-182PersonalBest.release.xcconfig"; sourceTree = "<group>"; };
+		C91B2FA193B94448F69F412B /* Pods_182PersonalBest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_182PersonalBest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		301FDF682FD8B3D70019443E /* Exceptions for "182PersonalBest" folder in "182PersonalBest" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 301FDF552FD8B3D60019443E /* 182PersonalBest */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		301FDF582FD8B3D60019443E /* 182PersonalBest */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				301FDF682FD8B3D70019443E /* Exceptions for "182PersonalBest" folder in "182PersonalBest" target */,
-			);
-			path = 182PersonalBest;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		301FDF532FD8B3D60019443E /* Frameworks */ = {
@@ -45,8 +145,10 @@
 		301FDF4D2FD8B3D50019443E = {
 			isa = PBXGroup;
 			children = (
-				301FDF582FD8B3D60019443E /* 182PersonalBest */,
+				301FE04D2FD8BC310019443E /* 182PersonalBest */,
 				301FDF572FD8B3D60019443E /* Products */,
+				BF31A2BF2E22965D49C2A8CE /* Pods */,
+				DF2833F4B5ACC2C8BEDA2378 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +160,144 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		301FE0152FD8BC310019443E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				301FE00A2FD8BC310019443E /* AppExportData.swift */,
+				301FE00B2FD8BC310019443E /* AppLinks.swift */,
+				301FE00C2FD8BC310019443E /* Exercise.swift */,
+				301FE00D2FD8BC310019443E /* ExerciseCategory.swift */,
+				301FE00E2FD8BC310019443E /* ExerciseSortOption.swift */,
+				301FE00F2FD8BC310019443E /* HistoryPeriodFilter.swift */,
+				301FE0102FD8BC310019443E /* OnboardingPage.swift */,
+				301FE0112FD8BC310019443E /* Record.swift */,
+				301FE0122FD8BC310019443E /* RecordComparisonType.swift */,
+				301FE0132FD8BC310019443E /* ReminderSettings.swift */,
+				301FE0142FD8BC310019443E /* WorkoutSession.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		301FE01A2FD8BC310019443E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				301FE0162FD8BC310019443E /* ExerciseStorageService.swift */,
+				301FE0172FD8BC310019443E /* NotificationService.swift */,
+				301FE0182FD8BC310019443E /* OnboardingService.swift */,
+				301FE0192FD8BC310019443E /* StatisticsService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		301FE01C2FD8BC310019443E /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				301FE01B2FD8BC310019443E /* AppTheme.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		301FE0262FD8BC310019443E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				301FE01D2FD8BC310019443E /* ExerciseFormViewModel.swift */,
+				301FE01E2FD8BC310019443E /* ExerciseListViewModel.swift */,
+				301FE01F2FD8BC310019443E /* HomeViewModel.swift */,
+				301FE0202FD8BC310019443E /* InsightsViewModel.swift */,
+				301FE0212FD8BC310019443E /* OnboardingViewModel.swift */,
+				301FE0222FD8BC310019443E /* RecordFormViewModel.swift */,
+				301FE0232FD8BC310019443E /* RecordHistoryViewModel.swift */,
+				301FE0242FD8BC310019443E /* SettingsViewModel.swift */,
+				301FE0252FD8BC310019443E /* WorkoutViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		301FE0282FD8BC310019443E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				301FE0272FD8BC310019443E /* HomeWidgets.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		301FE0362FD8BC310019443E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				301FE0282FD8BC310019443E /* Home */,
+				301FE0292FD8BC310019443E /* CategoryFilterBar.swift */,
+				301FE02A2FD8BC310019443E /* ExerciseCellView.swift */,
+				301FE02B2FD8BC310019443E /* FormComponents.swift */,
+				301FE02C2FD8BC310019443E /* GoalProgressView.swift */,
+				301FE02D2FD8BC310019443E /* ImprovementCellView.swift */,
+				301FE02E2FD8BC310019443E /* OnboardingPageView.swift */,
+				301FE02F2FD8BC310019443E /* PeriodFilterPicker.swift */,
+				301FE0302FD8BC310019443E /* ProgressChartView.swift */,
+				301FE0312FD8BC310019443E /* RecordCellView.swift */,
+				301FE0322FD8BC310019443E /* RecordHeroView.swift */,
+				301FE0332FD8BC310019443E /* SettingsActionCell.swift */,
+				301FE0342FD8BC310019443E /* StatCardView.swift */,
+				301FE0352FD8BC310019443E /* WorkoutSessionCellView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		301FE0422FD8BC310019443E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				301FE0362FD8BC310019443E /* Components */,
+				301FE0372FD8BC310019443E /* ExerciseFormView.swift */,
+				301FE0382FD8BC310019443E /* ExerciseListView.swift */,
+				301FE0392FD8BC310019443E /* HomeView.swift */,
+				301FE03A2FD8BC310019443E /* InsightsView.swift */,
+				301FE03B2FD8BC310019443E /* MainTabView.swift */,
+				301FE03C2FD8BC310019443E /* OnboardingView.swift */,
+				301FE03D2FD8BC310019443E /* RecordFormView.swift */,
+				301FE03E2FD8BC310019443E /* RecordHistoryView.swift */,
+				301FE03F2FD8BC310019443E /* SettingsView.swift */,
+				301FE0402FD8BC310019443E /* WorkoutFormView.swift */,
+				301FE0412FD8BC310019443E /* WorkoutListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		301FE04D2FD8BC310019443E /* 182PersonalBest */ = {
+			isa = PBXGroup;
+			children = (
+				301FE0152FD8BC310019443E /* Models */,
+				301FE01A2FD8BC310019443E /* Services */,
+				301FE01C2FD8BC310019443E /* Utilities */,
+				301FE0262FD8BC310019443E /* ViewModels */,
+				301FE0422FD8BC310019443E /* Views */,
+				301FE0432FD8BC310019443E /* AppDelegate.swift */,
+				301FE0442FD8BC310019443E /* Assets.xcassets */,
+				301FE0452FD8BC310019443E /* ContentView.swift */,
+				301FE0462FD8BC310019443E /* Info.plist */,
+				301FE0482FD8BC310019443E /* LaunchScreen.storyboard */,
+				301FE04A2FD8BC310019443E /* Main.storyboard */,
+				301FE04B2FD8BC310019443E /* SceneDelegate.swift */,
+				301FE04C2FD8BC310019443E /* ViewController.swift */,
+			);
+			path = 182PersonalBest;
+			sourceTree = "<group>";
+		};
+		BF31A2BF2E22965D49C2A8CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				11E7F2A40850F34F804DE081 /* Pods-182PersonalBest.debug.xcconfig */,
+				6215DC1FD66BC0563EA720D5 /* Pods-182PersonalBest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DF2833F4B5ACC2C8BEDA2378 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C91B2FA193B94448F69F412B /* Pods_182PersonalBest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -65,6 +305,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 301FDF692FD8B3D70019443E /* Build configuration list for PBXNativeTarget "182PersonalBest" */;
 			buildPhases = (
+				98671B64AF7616DC220BD485 /* [CP] Check Pods Manifest.lock */,
 				301FDF522FD8B3D60019443E /* Sources */,
 				301FDF532FD8B3D60019443E /* Frameworks */,
 				301FDF542FD8B3D60019443E /* Resources */,
@@ -73,12 +314,7 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				301FDF582FD8B3D60019443E /* 182PersonalBest */,
-			);
 			name = 182PersonalBest;
-			packageProductDependencies = (
-			);
 			productName = 182PersonalBest;
 			productReference = 301FDF562FD8B3D60019443E /* 182PersonalBest.app */;
 			productType = "com.apple.product-type.application";
@@ -99,6 +335,7 @@
 				};
 			};
 			buildConfigurationList = 301FDF512FD8B3D50019443E /* Build configuration list for PBXProject "182PersonalBest" */;
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -106,8 +343,6 @@
 				Base,
 			);
 			mainGroup = 301FDF4D2FD8B3D50019443E;
-			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 301FDF572FD8B3D60019443E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -122,24 +357,126 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				301FE0842FD8BC310019443E /* Assets.xcassets in Resources */,
+				301FE0862FD8BC310019443E /* LaunchScreen.storyboard in Resources */,
+				301FE0872FD8BC310019443E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		98671B64AF7616DC220BD485 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-182PersonalBest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		301FDF522FD8B3D60019443E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				301FE04E2FD8BC310019443E /* AppExportData.swift in Sources */,
+				301FE04F2FD8BC310019443E /* AppLinks.swift in Sources */,
+				301FE0502FD8BC310019443E /* Exercise.swift in Sources */,
+				301FE0512FD8BC310019443E /* ExerciseCategory.swift in Sources */,
+				301FE0522FD8BC310019443E /* ExerciseSortOption.swift in Sources */,
+				301FE0532FD8BC310019443E /* HistoryPeriodFilter.swift in Sources */,
+				301FE0542FD8BC310019443E /* OnboardingPage.swift in Sources */,
+				301FE0552FD8BC310019443E /* Record.swift in Sources */,
+				301FE0562FD8BC310019443E /* RecordComparisonType.swift in Sources */,
+				301FE0572FD8BC310019443E /* ReminderSettings.swift in Sources */,
+				301FE0582FD8BC310019443E /* WorkoutSession.swift in Sources */,
+				301FE0592FD8BC310019443E /* ExerciseStorageService.swift in Sources */,
+				301FE05A2FD8BC310019443E /* NotificationService.swift in Sources */,
+				301FE05B2FD8BC310019443E /* OnboardingService.swift in Sources */,
+				301FE05C2FD8BC310019443E /* StatisticsService.swift in Sources */,
+				301FE05D2FD8BC310019443E /* AppTheme.swift in Sources */,
+				301FE05E2FD8BC310019443E /* ExerciseFormViewModel.swift in Sources */,
+				301FE05F2FD8BC310019443E /* ExerciseListViewModel.swift in Sources */,
+				301FE0602FD8BC310019443E /* HomeViewModel.swift in Sources */,
+				301FE0612FD8BC310019443E /* InsightsViewModel.swift in Sources */,
+				301FE0622FD8BC310019443E /* OnboardingViewModel.swift in Sources */,
+				301FE0632FD8BC310019443E /* RecordFormViewModel.swift in Sources */,
+				301FE0642FD8BC310019443E /* RecordHistoryViewModel.swift in Sources */,
+				301FE0652FD8BC310019443E /* SettingsViewModel.swift in Sources */,
+				301FE0662FD8BC310019443E /* WorkoutViewModel.swift in Sources */,
+				301FE0672FD8BC310019443E /* HomeWidgets.swift in Sources */,
+				301FE0682FD8BC310019443E /* CategoryFilterBar.swift in Sources */,
+				301FE0692FD8BC310019443E /* ExerciseCellView.swift in Sources */,
+				301FE06A2FD8BC310019443E /* FormComponents.swift in Sources */,
+				301FE06B2FD8BC310019443E /* GoalProgressView.swift in Sources */,
+				301FE06C2FD8BC310019443E /* ImprovementCellView.swift in Sources */,
+				301FE06D2FD8BC310019443E /* OnboardingPageView.swift in Sources */,
+				301FE06E2FD8BC310019443E /* PeriodFilterPicker.swift in Sources */,
+				301FE06F2FD8BC310019443E /* ProgressChartView.swift in Sources */,
+				301FE0702FD8BC310019443E /* RecordCellView.swift in Sources */,
+				301FE0712FD8BC310019443E /* RecordHeroView.swift in Sources */,
+				301FE0722FD8BC310019443E /* SettingsActionCell.swift in Sources */,
+				301FE0732FD8BC310019443E /* StatCardView.swift in Sources */,
+				301FE0742FD8BC310019443E /* WorkoutSessionCellView.swift in Sources */,
+				301FE0752FD8BC310019443E /* ExerciseFormView.swift in Sources */,
+				301FE0762FD8BC310019443E /* ExerciseListView.swift in Sources */,
+				301FE0772FD8BC310019443E /* HomeView.swift in Sources */,
+				301FE0782FD8BC310019443E /* InsightsView.swift in Sources */,
+				301FE0792FD8BC310019443E /* MainTabView.swift in Sources */,
+				301FE07A2FD8BC310019443E /* OnboardingView.swift in Sources */,
+				301FE07B2FD8BC310019443E /* RecordFormView.swift in Sources */,
+				301FE07C2FD8BC310019443E /* RecordHistoryView.swift in Sources */,
+				301FE07D2FD8BC310019443E /* SettingsView.swift in Sources */,
+				301FE07E2FD8BC310019443E /* WorkoutFormView.swift in Sources */,
+				301FE07F2FD8BC310019443E /* WorkoutListView.swift in Sources */,
+				301FE0802FD8BC310019443E /* AppDelegate.swift in Sources */,
+				301FE0812FD8BC310019443E /* ContentView.swift in Sources */,
+				301FE0822FD8BC310019443E /* SceneDelegate.swift in Sources */,
+				301FE0832FD8BC310019443E /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		301FE0482FD8BC310019443E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				301FE0472FD8BC310019443E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		301FE04A2FD8BC310019443E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				301FE0492FD8BC310019443E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		301FDF6A2FD8B3D70019443E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11E7F2A40850F34F804DE081 /* Pods-182PersonalBest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -147,30 +484,37 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 182PersonalBest/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Tomorrows Muscle";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "home.-82PersonalBest";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bra.t0m0rr0wsm8sc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		301FDF6B2FD8B3D70019443E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6215DC1FD66BC0563EA720D5 /* Pods-182PersonalBest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -178,25 +522,31 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 182PersonalBest/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Tomorrows Muscle";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "home.-82PersonalBest";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bra.t0m0rr0wsm8sc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
