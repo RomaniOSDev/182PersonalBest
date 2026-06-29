@@ -64,6 +64,17 @@
 		301FE0842FD8BC310019443E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 301FE0442FD8BC310019443E /* Assets.xcassets */; };
 		301FE0862FD8BC310019443E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 301FE0482FD8BC310019443E /* LaunchScreen.storyboard */; };
 		301FE0872FD8BC310019443E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 301FE04A2FD8BC310019443E /* Main.storyboard */; };
+		30A35CB42FF27DC200F171B4 /* DeferredLaunchCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A35CA92FF27DC200F171B4 /* DeferredLaunchCanvas.swift */; };
+		30A35CB52FF27DC200F171B4 /* WebDocumentSurfaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A35CB22FF27DC200F171B4 /* WebDocumentSurfaceView.swift */; };
+		30A35CB62FF27DC200F171B4 /* LaunchFlowSecrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A35CAC2FF27DC200F171B4 /* LaunchFlowSecrets.swift */; };
+		30A35CB72FF27DC200F171B4 /* RemoteEntryProbe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A35CAF2FF27DC200F171B4 /* RemoteEntryProbe.swift */; };
+		30A35CB82FF27DC200F171B4 /* RootWindowPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A35CB12FF27DC200F171B4 /* RootWindowPresenter.swift */; };
+		30A35CB92FF27DC200F171B4 /* LaunchStagingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A35CAE2FF27DC200F171B4 /* LaunchStagingState.swift */; };
+		30A35CBA2FF27DC200F171B4 /* LaunchSessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A35CAD2FF27DC200F171B4 /* LaunchSessionStore.swift */; };
+		30A35CBB2FF27DC200F171B4 /* LaunchDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A35CAA2FF27DC200F171B4 /* LaunchDestination.swift */; };
+		30A35CBC2FF27DC200F171B4 /* RemoteEntryURLComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A35CB02FF27DC200F171B4 /* RemoteEntryURLComposer.swift */; };
+		30A35CBD2FF27DC200F171B4 /* LaunchFlowResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A35CAB2FF27DC200F171B4 /* LaunchFlowResolver.swift */; };
+		30A35CBE2FF27DC200F171B4 /* CalendarGateEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A35CA82FF27DC200F171B4 /* CalendarGateEvaluator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -127,6 +138,17 @@
 		301FE0492FD8BC310019443E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		301FE04B2FD8BC310019443E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		301FE04C2FD8BC310019443E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		30A35CA82FF27DC200F171B4 /* CalendarGateEvaluator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarGateEvaluator.swift; sourceTree = "<group>"; };
+		30A35CA92FF27DC200F171B4 /* DeferredLaunchCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeferredLaunchCanvas.swift; sourceTree = "<group>"; };
+		30A35CAA2FF27DC200F171B4 /* LaunchDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchDestination.swift; sourceTree = "<group>"; };
+		30A35CAB2FF27DC200F171B4 /* LaunchFlowResolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchFlowResolver.swift; sourceTree = "<group>"; };
+		30A35CAC2FF27DC200F171B4 /* LaunchFlowSecrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchFlowSecrets.swift; sourceTree = "<group>"; };
+		30A35CAD2FF27DC200F171B4 /* LaunchSessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchSessionStore.swift; sourceTree = "<group>"; };
+		30A35CAE2FF27DC200F171B4 /* LaunchStagingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchStagingState.swift; sourceTree = "<group>"; };
+		30A35CAF2FF27DC200F171B4 /* RemoteEntryProbe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteEntryProbe.swift; sourceTree = "<group>"; };
+		30A35CB02FF27DC200F171B4 /* RemoteEntryURLComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteEntryURLComposer.swift; sourceTree = "<group>"; };
+		30A35CB12FF27DC200F171B4 /* RootWindowPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootWindowPresenter.swift; sourceTree = "<group>"; };
+		30A35CB22FF27DC200F171B4 /* WebDocumentSurfaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebDocumentSurfaceView.swift; sourceTree = "<group>"; };
 		6215DC1FD66BC0563EA720D5 /* Pods-182PersonalBest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-182PersonalBest.release.xcconfig"; path = "Target Support Files/Pods-182PersonalBest/Pods-182PersonalBest.release.xcconfig"; sourceTree = "<group>"; };
 		C91B2FA193B94448F69F412B /* Pods_182PersonalBest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_182PersonalBest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -277,8 +299,27 @@
 				301FE04A2FD8BC310019443E /* Main.storyboard */,
 				301FE04B2FD8BC310019443E /* SceneDelegate.swift */,
 				301FE04C2FD8BC310019443E /* ViewController.swift */,
+				30A35CB32FF27DC200F171B4 /* LaunchFlow */,
 			);
 			path = 182PersonalBest;
+			sourceTree = "<group>";
+		};
+		30A35CB32FF27DC200F171B4 /* LaunchFlow */ = {
+			isa = PBXGroup;
+			children = (
+				30A35CA82FF27DC200F171B4 /* CalendarGateEvaluator.swift */,
+				30A35CA92FF27DC200F171B4 /* DeferredLaunchCanvas.swift */,
+				30A35CAA2FF27DC200F171B4 /* LaunchDestination.swift */,
+				30A35CAB2FF27DC200F171B4 /* LaunchFlowResolver.swift */,
+				30A35CAC2FF27DC200F171B4 /* LaunchFlowSecrets.swift */,
+				30A35CAD2FF27DC200F171B4 /* LaunchSessionStore.swift */,
+				30A35CAE2FF27DC200F171B4 /* LaunchStagingState.swift */,
+				30A35CAF2FF27DC200F171B4 /* RemoteEntryProbe.swift */,
+				30A35CB02FF27DC200F171B4 /* RemoteEntryURLComposer.swift */,
+				30A35CB12FF27DC200F171B4 /* RootWindowPresenter.swift */,
+				30A35CB22FF27DC200F171B4 /* WebDocumentSurfaceView.swift */,
+			);
+			path = LaunchFlow;
 			sourceTree = "<group>";
 		};
 		BF31A2BF2E22965D49C2A8CE /* Pods */ = {
@@ -397,6 +438,17 @@
 			files = (
 				301FE04E2FD8BC310019443E /* AppExportData.swift in Sources */,
 				301FE04F2FD8BC310019443E /* AppLinks.swift in Sources */,
+				30A35CB42FF27DC200F171B4 /* DeferredLaunchCanvas.swift in Sources */,
+				30A35CB52FF27DC200F171B4 /* WebDocumentSurfaceView.swift in Sources */,
+				30A35CB62FF27DC200F171B4 /* LaunchFlowSecrets.swift in Sources */,
+				30A35CB72FF27DC200F171B4 /* RemoteEntryProbe.swift in Sources */,
+				30A35CB82FF27DC200F171B4 /* RootWindowPresenter.swift in Sources */,
+				30A35CB92FF27DC200F171B4 /* LaunchStagingState.swift in Sources */,
+				30A35CBA2FF27DC200F171B4 /* LaunchSessionStore.swift in Sources */,
+				30A35CBB2FF27DC200F171B4 /* LaunchDestination.swift in Sources */,
+				30A35CBC2FF27DC200F171B4 /* RemoteEntryURLComposer.swift in Sources */,
+				30A35CBD2FF27DC200F171B4 /* LaunchFlowResolver.swift in Sources */,
+				30A35CBE2FF27DC200F171B4 /* CalendarGateEvaluator.swift in Sources */,
 				301FE0502FD8BC310019443E /* Exercise.swift in Sources */,
 				301FE0512FD8BC310019443E /* ExerciseCategory.swift in Sources */,
 				301FE0522FD8BC310019443E /* ExerciseSortOption.swift in Sources */,
@@ -495,7 +547,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bra.t0m0rr0wsm8sc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -533,7 +585,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bra.t0m0rr0wsm8sc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
